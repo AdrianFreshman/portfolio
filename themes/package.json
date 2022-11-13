@@ -1,0 +1,23 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
+    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.56.1",
+    "stylelint": "^14.14.1",
+    "stylelint-config-sass-guidelines": "^9.0.1"
+  }
+}
