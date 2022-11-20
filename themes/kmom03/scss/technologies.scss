@@ -1,0 +1,193 @@
+.grid-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 150px 150px 200px;
+    grid-auto-rows: minmax(150px, auto);
+    gap: 1em 1em;
+    grid-template-areas: "header header";
+    margin-left: 30vw;
+}
+
+.HEADER {
+    grid-area: header;
+    text-align: center;
+    grid-column: span 3;
+}
+
+.CSS {
+    background-color: rgb(221, 75, 75);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+}
+
+.HTML {
+    background-color: rgb(75, 194, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+}
+
+.JS {
+    background-color: rgb(194, 221, 75);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+}
+.PHP {
+    background-color: rgb(216, 75, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+}
+
+.PY {
+    background-color: rgb(75, 221, 77);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 3;
+}
+.GIT {
+    background-color: rgb(243, 143, 231);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+}
+.SQ {
+    background-color: rgb(75, 214, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+}
+
+aside {
+    float: left;
+    z-index: 2000;
+    position: relative;
+    padding-right: 50px;
+}
+
+@media (max-width: 800px) {
+    .flex-container ul {
+        display: none;
+    }
+    .flex-container h2 {
+        display: none;
+    }
+}
+
+aside {
+    float: left;
+    z-index: 2000;
+    position: relative;
+    padding-right: 50px;
+}
+
+.grid-technonolgy-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    list-style: none;
+}
+
+.flex-container ul {
+    list-style: none;
+}
+.flex-container a:hover {
+    background: #b5c9d2;
+}
+
+.flex-container a {
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 250px;
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        .CSS {
+            background-color: rgb(221, 75, 75);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .HTML {
+            background-color: rgb(75, 194, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .JS {
+            background-color: rgb(194, 221, 75);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .PHP {
+            background-color: rgb(216, 75, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .PY {
+            background-color: rgb(75, 221, 77);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .GIT {
+            background-color: rgb(228, 126, 173);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .SQ {
+            background-color: rgb(75, 214, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+    }
+}
