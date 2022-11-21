@@ -384,7 +384,7 @@ a {
 }
 
 .main p {
-  font-size: 0.8em;
+  font-size: 1.1em;
   margin-bottom: 1.54em;
   font-family: "Lora", serif;
 }
@@ -586,14 +586,18 @@ aside {
   transition-duration: 0.5s;
 }
 
-@media (max-width: 600px) {
+.flex-container {
+  font-size: 2vw;
+}
+
+@media (max-width: 650px) {
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     max-width: 250px;
-    margin-left: 20vw;
+    margin-left: 15vw;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .grid-container .CSS {
     background-color: rgb(221, 75, 75);
     text-align: center;
