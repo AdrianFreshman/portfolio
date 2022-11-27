@@ -1,0 +1,58 @@
+.main {
+    color: white;
+    background: #121212;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: #0e0909;
+}
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    font-family: monospace;
+    font-size: 1vw;
+    line-height: 1.9824;
+    color: darkcyan;
+}
+
+.main h2 {
+    color: grey;
+}
+
+.main h1 {
+    color: grey;
+}
+
+.main p {
+    color: grey;
+}
+
+p {
+    color: grey;
+}
+.flex-container a {
+    color: grey;
+}
+
+a {
+    color: grey;
+}
+
+.nav a {
+    font-size: 3vw;
+    display: inline-block;
+    background: rgb(42, 39, 39);
+    color: darkcyan;
+    padding: 3px 35px;
+    margin: 100px 0;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+
