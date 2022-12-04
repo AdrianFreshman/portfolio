@@ -5,7 +5,7 @@ Description: This is our index page.
 
 # Home page
 
-<img src="./assets/img/portrait.jpg" class="portrait" alt="portrait" />
+![Bild portrait](%base_url%/image/portrait.jpg)
 
         Hej alla via BTH! Adrian Dedorson heter jag
         och började läsa först 2022

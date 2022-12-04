@@ -1,0 +1,7 @@
+.landingpage {
+    display: grid;
+}
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}

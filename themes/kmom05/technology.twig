@@ -1,0 +1,44 @@
+
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+{% if meta.Sidebar %}
+
+
+    <div class="main" role="main">
+    <div class = "technology">
+    <div class = flex-container
+<aside>
+<h2>Andra Teknologier</h2>
+<ul>
+    {% for page in pages ("technology") %}
+        <li><a href = "{{page.url}}">
+            {{page.title}}
+        </a></li>
+
+    {% endfor %}  
+
+    </ul>
+    </aside>
+</div>
+        <div class="grid-technonolgy-container" 
+        {{ content }}
+    </div>
+    </div>
+
+{% else %}   
+
+<div class="main" role="main">
+<div class="grid-technonolgy-container" 
+        {{ content }}
+</div>
+</div>
+ {% endif %}    
+    
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
