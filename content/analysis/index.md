@@ -24,21 +24,31 @@ Description: Analys presentation
 <br>
 <h1> Analys av webbplatser </h1>
 
-<p>Vi ska analysera webbplatsens utseende med verktyg och design principer.</p>
-
-<h2 class= "titel"><a href ="https://www.migrationsverket.se/">Migrationsverket            </a></h2>
-<h2 class = "titel"><a href ="https://www.skatteverket.se/privat.4.76a43be412206334b89800052864.html">Skatteverket      </a></h2> 
-<h2 class = "titel"><a href ="https://www.boplatssyd.se/">BoplatsSyd</a></h2> <br><br><br><br><br><br><br>
-
+<p>Vi ska analysera webbplatsens utseende och <b>color</b> med verktyg och design principer.</p>
+<ul class= "titel">
+<li><a href ="https://www.migrationsverket.se/">Migrationsverket </a></li>
+<li><a href ="https://www.skatteverket.se/privat.4.76a43be412206334b89800052864.html">Skatteverket </a></li>
+<li><a href ="https://www.boplatssyd.se/">BoplatsSyd</a></li>
+</ul>
 <p>Dessa populära webbplatser har valts eftersom de har funnits länge och har erfarnhet vid att ta emot ett stort antal personer, de har även en hel del resurser vilket kan vara intressant att ta med i analysen eftersom de nog haft en del UX design teams som jobbat med designen.</p>
 
-<p>Ytterligare 3 webbsidor som ska analysera efter loading kriterier med verktyg och design principer.</p>
+<p>Ytterligare 3 webbsidor som ska analysera efter <b>loading</b> kriterier med verktyg och design principer.</p>
+<ul class= "titel">
+<li><a href ="https://www.leoslekland.se/">Leos lekland </a></li>
+<li><a href ="https://www.lego.com/sv-se">Lego Leksaker </a></li>
+<li><a href ="https://www.liseberg.se/">Liseberg</a></li>
 
-<h2 class= "titel"><a href ="https://www.leoslekland.se/">Leos lekland       <br>                      </a></h2>
-<h2 class = "titel"><a href ="https://www.lego.com/sv-se">Lego Leksaker                       </a></h2> 
-<h2 class = "titel"><a href ="https://www.liseberg.se/">Liseberg</a></h2> <br><br><br><br><br><br><br>
+</ul>
 
-<p>Dessa populära webbplatser har valts eftersom de har mycket interaktion och bilder och annat som kan var intressant att analysera.</p>
+<p>Ytterligare 3 webbsidor som ska analysera efter <b>design</b> kriterier med verktyg och design principer.</p>
+<ul class= "titel">
+<li><a href ="https://networkchuck.com/">Network Chuck </a></li>
+<li><a href ="https://www.techseries.dev/backstage">Tech Lead YoutubeBackstage </a></li>
+<li><a href ="https://xxlandco.com/">Tina Nguyen XxlandCo</a></li>
+
+</ul>
+
+<p>Dessa webbplatser har valts eftersom jag tycker att de har stort inflytande i mina beslut inom tech och uppskattar deras arbete?</p>
 
 <h2> Metod Color </h2>
 
@@ -47,6 +57,10 @@ Description: Analys presentation
 <h2> Metod Load </h2>
 
 Vi har använt med verktyget PageSpeed Insights och Firefox Devtools/Chrome Devtools att mäta laddningstider mobilt och dator. Testerna har vart baserat rent kring prestanda av olika slag enligt kraven. Jag tog och gjorde alla tester separat och stoppade in i excel, share/embed (PageSpeed,Firefox Devtools links). Sen tog jag och gick igenom med Chrome devTools igen och analyserade datan separat,storlek,hastighet osv och presentera datan till framtida analys och resultat.
+
+<h2> Metod Design </h2>
+
+Den metod som tillämpats är att utgå från <b>https://www.canva.com/learn/design-elements-principles/</b> och se vilka principer som verkar tar mest plats, dra slutsatser kring syfte och designen, om det "matchar" eller ej. Kan dessutom se webbsidan ur perspektivit ur <b>https://zizzogroup.com/blog/7-principles-of-design/</b>. identifiera och analysera enligt kmom06 uppbbyggnad i kraven <b>https://dbwebb.se/uppgift/utvardera-webbplatsers-designprinciper-v2 till XXland co har https://www.groovecommerce.com/ecommerce-blog/ecommerce-design-principles/ tillämpat</b>.
 
 <h2> Resultat Color </h2>
 
@@ -69,6 +83,9 @@ Den trend jag ser kring vad som kan bli bättre är smartare css, hantera allt s
 <br>
 
 </p>
+<h2> Resultat Design </h2>
+
+Kan se att dessa personsidor har en viss tanka till att knyta ann syfte och design. Hacker IT, Youtuber promo salesman, E-commerce. och de har lyckats! Gillar att se att det finnas en hel del utrymma att snygga till det med tack vara denna kurs och materialt vi har.Det finns ens lags template som de flesta använder i dagens läge vilket verkar vara att bruka, linjärt uppdelande, fokus av color kombinationer som fungerar och minimialism. att efterlikna varandra. Det finns utrymme att skapa roligare sidor med lite mer risktagande och fler tillämpande designprinciper. OBs ingen av sidarna fick 100 i acessability! vilket Tech lead hade sämst vilket jag gissade mig till innan med kontrasterna som användes.
 
 <h2> Analys Color</h2>  
  
@@ -78,7 +95,7 @@ Gloria: <br> <br>
 "Webbplatserna förlitar sig på neutrala färger - svart och vitt och förmedlar en idé om elegans men samtidigt enkelhet. I synnerhet symboliserar svart en elegans genom webbplatserna.
 Minimalist approach används som en kan till färgvalen till de 3 webbplatserna" Se hennes version till mer utvecklad analys (tidsbrist)
 
-<h2> Analys / slutkommentar Load </h2>
+<h2> Analys Load </h2>
 
 <p>Adrian:<br> <br>
 
@@ -90,9 +107,22 @@ Gloria: "Vissa sidor som Leo fungerar muyket snabbt men har mindre content, mini
 
 </p>
 
-<h2>  Referenser </h2>
+<h2>Analys Design </h2>
+
+<p>Adrian:<br><br>
+
+<p>De flesta verkar kunna skapa en snygg standard design men saknar lite kreativitet utanfor den standarden, det skapar lite av en trist känsla.</p>
+
+<p>Gloria: "Snygg design, vill kunna skapande liknande, tycker de verkar vara lite lata gällande performance och acessability och kreativiteten, tycker Network chuck gjorde bäst jobb allt som allt!" <br> <br><p>
+
+<h2>Referenser </h2>
 
 <p>
+
+https://www.canva.com/learn/design-elements-principles/<br> <br>
+https://zizzogroup.com/blog/7-principles-of-design/<br> <br>
+https://www.groovecommerce.com/ecommerce-blog/ecommerce-design-principles/<br> <br>
+
 https://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437<br> <br> samt
 <br> <br>
 https://www.trajectorywebdesign.com/blog/web-design-color-psychology/#:~:text=Yellow%20is%20fun%20and%20playful,and%20overwhelming%20in%20larger%20amounts.</p>
