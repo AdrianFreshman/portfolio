@@ -1,0 +1,463 @@
+.grid-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 150px 150px 200px;
+    grid-auto-rows: minmax(150px, auto);
+    gap: 1em 1em;
+    grid-template-areas: "header header";
+    margin-left: 30vw;
+}
+
+.HEADER {
+    grid-area: header;
+    text-align: center;
+    grid-column: span 3;
+}
+
+.CSS {
+    background-color: rgb(221, 75, 75);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.CSS a {
+    color: black;
+}
+
+.HTML {
+    background-color: rgb(75, 194, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.HTML a {
+    color: black;
+}
+
+.JS {
+    background-color: rgb(194, 221, 75);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.JS a {
+    color: black;
+}
+.PHP {
+    background-color: rgb(216, 75, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.PHP a {
+    color: black;
+}
+
+.PY {
+    background-color: rgb(75, 221, 77);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 3;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.PY a {
+    color: black;
+}
+.GIT {
+    background-color: rgb(243, 143, 231);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 1;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.GIT a {
+    color: black;
+}
+.SQ {
+    background-color: rgb(75, 214, 221);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    grid-column: span 2;
+    color: darkcyan;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.SQ a {
+    color: black;
+}
+
+aside {
+    float: left;
+    z-index: 2000;
+    position: relative;
+    padding-right: 50px;
+}
+
+@media (max-width: 800px) {
+    .flex-container ul {
+        display: none;
+    }
+    .flex-container h2 {
+        display: none;
+    }
+}
+
+aside {
+    float: left;
+    z-index: 2000;
+    position: relative;
+    padding-right: 50px;
+}
+
+.grid-technonolgy-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    list-style: none;
+}
+
+.flex-container ul {
+    list-style: none;
+}
+.flex-container a:hover {
+    background: #b5c9d2;
+}
+
+.flex-container a {
+    transition-duration: 0.5s;
+}
+
+.flex-container {
+    font-size: 2vw;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    list-style: none;
+}
+
+gallery-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 2em 2em;
+    margin-left: 8vw;
+}
+
+@media (max-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 250px;
+        margin-left: 15vw;
+    }
+}
+
+.embed-container {
+    margin-left: 35.5vw;
+}
+
+@media (max-width: 1000px) {
+    .embed-container {
+        margin-left: 17vw;
+    }
+}
+
+.analysLoad iframe {
+    width: 100%;
+}
+
+.flex-container ul {
+    list-style: none;
+}
+.flex-container a:hover {
+    background: #b5c9d2;
+}
+
+.flex-container a {
+    transition-duration: 0.5s;
+}
+
+.flex-container {
+    font-size: 2vw;
+}
+
+.flex-container {
+    font-size: 2vw;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    list-style: none;
+}
+
+.flex-container2 a:hover {
+    background: #b5c9d2;
+}
+
+.flex-container2 a {
+    transition-duration: 0.5s;
+}
+
+.flex-container2 {
+    font-size: 1vw;
+}
+
+.flex-container2 .Color:hover {
+    background: #b5c9d2;
+}
+
+.flex-container2 .Load:hover {
+    background: #b5c9d2;
+}
+
+.flex-container2 .Design:hover {
+    background: #b5c9d2;
+}
+
+.flex-container2 .Color {
+    transition-duration: 0.5s;
+}
+
+.flex-container2 .Load {
+    transition-duration: 0.5s;
+}
+.flex-container2 .Design {
+    transition-duration: 0.5s;
+}
+
+.Color {
+    background-color: #b5c9d2;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+.Color a {
+    color: black;
+}
+
+.Load {
+    background-color: #b5c9d2;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+
+.Load a {
+    color: black;
+}
+.Design {
+    background-color: #b5c9d2;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid !important;
+    border-image: linear-gradient(45deg, grey, #268885) 1 !important;
+}
+.Design a {
+    color: black;
+}
+
+@media (max-width: 650px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 250px;
+        margin-left: 15vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .grid-container {
+        .CSS {
+            background-color: rgb(221, 75, 75);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .HTML {
+            background-color: rgb(75, 194, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .JS {
+            background-color: rgb(194, 221, 75);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .PHP {
+            background-color: rgb(216, 75, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+
+        .PY {
+            background-color: rgb(75, 221, 77);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .GIT {
+            background-color: rgb(228, 126, 173);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+        .SQ {
+            background-color: rgb(75, 214, 221);
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            grid-column: span 3;
+        }
+    }
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nav a:hover {
+    background: #4dc8ea;
+}
+
+.nav a {
+    font-size: 2.1vw;
+    display: inline-block;
+    background: #d33b71;
+    color: #29928e;
+    padding: 3px 25px;
+    margin: 100px 0;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.nav ul li {
+    padding: 0 2vw 0 2vw;
+}
+
+.nav a,
+.nav-toggle {
+    color: #f1c543;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav {
+    width: 100%;
+    height: 30vh;
+}
+
+@media (max-width: 767px) {
+    .nav ul {
+        display: flex;
+        padding-left: 1%;
+        list-style: none;
+    }
+
+    .nav ul li {
+        display: flex;
+        text-align: center;
+        padding: 0 1.5vw 0 1.5vw;
+    }
+
+    .nav ul li a {
+        font-size: 3vw;
+        display: inline-block;
+        background: #4dc8ea;
+        color: #fff;
+        padding: 2px 15px;
+        margin: 30px 0;
+        border-radius: 50px;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        align-items: center;
+        cursor: pointer;
+        float: center;
+    }
+}
